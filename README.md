@@ -1,5 +1,5 @@
 # TFA-Aiming-FX
-Optional aiming FX for use with TFA and MW Base
+Optional aiming FX for use with TFA, MW and ArcCW Base
 
 ### ConVars:
 - `cl_aimingfx_enabled` (1 by default) - Toggle aiming FX
