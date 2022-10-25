@@ -45,6 +45,8 @@ if CLIENT then
 
 		if wep.Base == "mg_base" then
 			ADSProgress = wep:GetAimDelta()
+		elseif wep.ArcCW == true then
+			ADSProgress = 1 - wep:GetSightDelta()
 		else
 			ADSProgress = wep.IronSightsProgress or 0
 		end
